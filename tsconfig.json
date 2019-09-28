@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": false,
+    "removeComments": true,
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "strict": true,
+    "outDir": "build",
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "app/*": [
+        "./app/*"
+      ]
+    }
+  },
+  "exclude": [
+    "build",
+    "node_modules",
+    "integration"
+  ]
+}
