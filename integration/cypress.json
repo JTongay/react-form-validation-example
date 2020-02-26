@@ -1,9 +1,0 @@
-{
-	"baseUrl": "http://localhost:3000",
-	"viewportHeight": 667,
-	"viewportWidth": 375,
-	"defaultCommandTimeout": 2000,
-	"pageLoadTimeout": 5000,
-	"responseTimeout": 5000,
-	"supportFile": "cypress/support/index.ts"
-}
